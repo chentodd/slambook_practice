@@ -23,3 +23,6 @@ target_link_libraries(triangulation ${OpenCV_LIBS})
 
 add_executable(poseEstimation3d2d poseEstimation3d2d.cpp)
 target_link_libraries(poseEstimation3d2d g2o_core g2o_stuff ${OpenCV_LIBS})
+
+add_executable(poseEstimation3d3d poseEstimation3d3d.cpp)
+target_link_libraries(poseEstimation3d3d g2o_core g2o_stuff ${OpenCV_LIBS})
